@@ -7,4 +7,6 @@ function merge<T, U>(objA: T, objB: U): T & U {
   return { ...objA, ...objB };
 }
 
+const mergedObject = merge({ key1: 'value1' }, { key2: 42 });
+
 export {}
