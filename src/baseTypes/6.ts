@@ -2,7 +2,7 @@
   Як ви вкажете типи для аргументів і значень цих функцій, що повертаються?
 */
 
-function showMessage (message: string) {
+function showMessage (message: string): void {
   console.log(message);
 }
 
